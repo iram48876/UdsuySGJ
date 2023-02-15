@@ -21,9 +21,6 @@ jobs:
         with:
           node-version: '14'
 
-      - name: install
-        run: npm i && npm run setup:skip-build
-
       - name: lint
         run: npm run lint
 
